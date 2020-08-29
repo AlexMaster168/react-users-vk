@@ -1,0 +1,20 @@
+.create {
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 500px;
+    background: repeating-linear-gradient(to top, #29f590, #009efd);
+}
+
+.create input {
+    background-color: #ebd500;
+}
+
+.button {
+    position: relative;
+    bottom: -25px;
+    background-color: black;
+    color: blue;
+}

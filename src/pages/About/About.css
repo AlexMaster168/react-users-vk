@@ -1,0 +1,11 @@
+.jumbotron {
+    position: absolute;
+    top: 67px;
+    background: repeating-linear-gradient(to top, #6a11cb, #2575fc);
+    height: 500px;
+    width: 900px;
+}
+
+h1,p  {
+    color: orange;
+}
