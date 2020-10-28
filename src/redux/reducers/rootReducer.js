@@ -8,7 +8,7 @@ const initialState = {
 const handlers = {
     [LOAD_USER]: (state, {user}) => ({
         ...state,
-        users: data
+        users: user
     }),
     [ADD_USER]: (state, {payload}) => ({
         ...state,
