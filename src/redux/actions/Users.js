@@ -8,7 +8,7 @@ export function LOAD() {
             const response = await axios.get('./Users.json')
             const data = await response.json()
             const res = Object.keys(data).map(key => ({ ...data[key], id: key }))
-            dispatch({type: LOAD_USER, user: res})
+            dispatch({type: LOAD_USER, data: res})
         } catch (e) {
             console.log(e)
         }
